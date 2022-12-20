@@ -1,0 +1,166 @@
+body{    
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEEEEE;
+}
+
+
+/* MENU */
+nav{    
+    height:50px;
+    display:flex;
+    align-items: center;    
+    background: #FFFFFF;    
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+nav ul{    
+    width:100%;
+    display:flex;
+    justify-content: space-around;    
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{ 
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px;
+    color: #CCCCCC;
+}
+
+.active{ 
+    color: #FF7800;
+}
+
+/* Principal */
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{ 
+    width:100%;
+    font-size:18px;
+    color:#999999;
+    margin-top:20px;
+    margin-left:20px;
+    
+}
+
+#painel{ 
+    display: flex;
+    width:100%;
+    padding:10px;
+    justify-content: space-between;
+}
+
+#esquerda{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    width:80%;    
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+    #esquerda ul{
+        list-style: none;
+        margin:0px;
+        padding:0px;        
+    }
+
+    #esquerda ul li{        
+        display: flex;        
+        justify-content:flex-start;
+        align-items: center;
+        border:1px solid #CCC;
+        margin:10px;
+        padding:20px;    
+        font-size: 18px;            
+    }
+
+    #esquerda ul li img{
+        width: 60px;
+        margin-right:30px;
+    }        
+
+    #esquerda ul li span{
+        width: 85%;
+        text-align: left;        
+    }        
+
+
+#direita{ 
+    width:20%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+    #direita ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin-top:0px;
+        padding:10px;
+        border: 1px solid #CCCCCC;
+        border-radius: 3px;
+    }
+
+    #direita ul li{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+
+        font-size:20px;
+        text-transform: uppercase;
+        height:50px;
+
+    }
+
+    .desconto{
+        color:#FF7800;
+    }
+
+    .total{
+        margin-top:30px;                
+    }
+
+    .total h5{
+        font-size: 18px;
+        font-weight: bold;        
+    }
+
+    .total span{ 
+        font-size: 18px;
+        font-weight: bold;        
+    }
+
+    #direita ul li h5{        
+        margin:0px;
+        padding:0px;
+    }
+
+#direita button{
+    width:100%;
+    padding:20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color:white;
+    background: #FF6C00;
+    border:0px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), inset 0px -3px 0px #D45A00;
+    border-radius: 3px;
+
+    cursor:pointer;
+}
+
+#direita button:hover{
+    background: #ff6a007e;
+
+}
